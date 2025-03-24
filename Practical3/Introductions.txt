@@ -1,0 +1,4 @@
+Hello, my name is LI Jiaze.
+I like drinking tea and eating kaolengmian.
+I am enjoying playing hepingjingying
+I am happy that I can push my repo from Visual Studio Code to GitHub
