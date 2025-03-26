@@ -1,0 +1,5 @@
+I think this week practical is super difficult and challenging for me. I cannot finish the task just following the introductions, so I searched and learned some relevant functions and command. 
+But, I enjoy the process to judege whether my command is logic or not and the process of learning new functions. When I saw the final result plot and amine, I think everying is worth it. 
+I have learned the np.random.choice(), np.sum and array successfully. Maybe the most trouble me is the second task. I want to appear the eleven curves in one plot, but I am not familiar with using multiple for loops. 
+Besides, I learned that I should to consider some special circumstances when programming. For example, in the second task, when vaccination rate equal 100%, the population of susceptible is negative. So I should to make the population of susceptible is 0, or it will bug. 
+And doing the third task, considering the edge elements of the array is also necessary. So, considering some special elements or values is important.
