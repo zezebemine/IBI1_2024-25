@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 #def initialize population (N for total population, V for infected population)
 def initialize_population(N,V):
   #creat a 2d array, all elements are 0 for all people are susceptible
-  population=np.zeros((N,N))
+  population=np.zeros((N,N))#cite from practical6 introduction
   #choose a position of infection randomly
   outbreak=np.random.choice(range(N),2)
   population[outbreak[0],outbreak[1]]=1
