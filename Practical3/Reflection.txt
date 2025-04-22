@@ -1,0 +1,3 @@
+In this practical, not all the tasks went well. Firstly, I can make new dictionaries and feil well. But when finishing editing these fiels, I found it was difficult to push them to GitHub. I tried many times and found help online and AI.
+But, I don't know what I did and the files were pushed successfully suddenly. I was a little confuse about that. May be a problem with the network connection. Though the process of establishing my page was difficult, I still followed the 
+introduction and finish them. Overall I though I mastered the primary operation of the complex system.
