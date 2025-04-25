@@ -46,26 +46,32 @@ print(dalys_1990)
 
 #the mean DALYs in UK was greater than France
 #select the DALYs of UK and France
-uk_dalys=dalys_data.loc[dalys_data.Entity=="United Kingdom",["DALYs"]]
-france_dalys=dalys_data.loc[dalys_data.Entity=="France",["DALYs"]]
+uk=dalys_data.loc[dalys_data.Entity=="United Kingdom",["DALYs","Year"]]
+france=dalys_data.loc[dalys_data.Entity=="France",["DALYs","Year"]]
 
 #calculate the DALYs mean value of the two countrie
-uk_dalys_mean=uk_dalys.mean()
-france_dalys_mean=france_dalys.mean()
+uk_dalys_mean=uk["DALYs"].mean()
+france_dalys_mean=france["DALYs"].mean()
 
+#compare the DALYs of UK and France
+if uk_dalys_mean>france_dalys_mean:
+    print("the mean DALYs in UK was greater than France")
+else:
+    print("the mean DALYs in France was greater than UK")
+    
 #show the two mean value
 print(uk_dalys_mean)
 print(france_dalys_mean)
 
 #select the years of UK and France
-uk_year=dalys_data.loc[dalys_data.Entity=="United Kingdom",["Year"]]
+uk_year=uk["Year"]
 
 #determine the size of figure
 plt.figure(figsize=(12,8))
 
 #draw the plot
-plt.plot(uk_year.Year,uk_dalys.DALYs,'b+') #different commands like "b+", "r+" and "bo" refer to different shape of the dot.
-plt.xticks(uk_year.Year,rotation=-90) #the different numbers refer to the angle formed by the string and the x-axis that represents the year
+plt.plot(uk.Year,uk.DALYs,'b+') #different commands like "b+", "r+" and "bo" refer to different shape of the dot.
+plt.xticks(uk.Year,rotation=-90) #the different numbers refer to the angle formed by the string and the x-axis that represents the year
 
 #determine the title, xlabel and ylabel of the plot
 plt.title('DALYs over time in the UK')
