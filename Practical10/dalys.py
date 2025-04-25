@@ -63,7 +63,7 @@ else:
 print(uk_dalys_mean)
 print(france_dalys_mean)
 
-#select the years of
+#select the years of uk
 uk_year=uk["Year"]
 
 #determine the size of figure
