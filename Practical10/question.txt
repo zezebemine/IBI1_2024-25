@@ -1,5 +1,5 @@
 question: How has the relationship between the DALYs in China and United States changed over time? Are the trend of change becoming more similar, less similar with the time going.
-line number: from line 78 to line 137
+line number: from line 84 to line 143
 discussion: Before seeing the results, I expected that the DALYs of China and USA would be the similar changing trend, which the DALYs decrease with the years increasing. However, starting from around 2008 
 the DALYs of USA began increase slowly. But the DALYs of China keep decreasing. Around 1990 to 2008, the correlation coefficient is nearly to 1, it shows that during this period, the change trend of DALYs 
 in China and USA has a strong postive linear correlation, and the change trends of the two are highly similar. However, around 2008 to 2019, The correlation coefficient drops sharply until it becomes negative 
