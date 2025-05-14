@@ -1,0 +1,22 @@
+Findings:
+The length of human SOD2 protein: 222.
+The subcellular localisation of human SOD2 protein: mitochondria.
+The	range of percentage identities in the reported online BLAST results: 83.3% - 100%.
+The	alignment score and percentage of identical amino acids for each of the three comparisons that you performed using Python:
+
+Human vs Mouse:
+alignemnt score: 1097
+identical percentage: 90.09%
+
+Human vs Random:
+alignemnt score: -278
+identical percentage: 2.25%
+
+Mouse vs Random: 
+alignment score: -276
+identical percentage: 2.25%
+
+In the three sequence, human SOD2 protein sequence and mouse SOD2 protein sequence have the closest relationship.
+
+Interpretation: The human and mouse SOD2 sequences are most closely related, as expected from their evolutionary relationship. 
+Comparisons with random sequences show significantly lower similarity, confirming the biological significance of the human-mouse alignment.
